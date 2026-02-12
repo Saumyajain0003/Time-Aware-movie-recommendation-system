@@ -250,52 +250,6 @@ TSMF (Time-Sensitive Matrix Factorization)
   Model Training Complete:            Yes
 ```
 
-## 🎯 Resume Highlights
-
-When presenting this project:
-
-### Technical Skills Demonstrated
-- ✅ Machine Learning (Collaborative Filtering, Matrix Factorization)
-- ✅ Temporal Modeling & Time Series Analysis
-- ✅ Data Processing & Preprocessing
-- ✅ Model Evaluation & Metrics
-- ✅ Software Engineering (Modular Design, Testing)
-- ✅ Python (NumPy, SciPy, Pandas)
-
-### Project Highlights
-- Implemented 2 production-ready ML models
-- Built end-to-end ML pipeline with 4 stages
-- Generated and processed 50K+ synthetic interactions
-- Comprehensive evaluation framework
-- Clean, documented, and modular code
-- Suitable for production deployment
-
-### Interview Talking Points
-1. **Problem**: Build a system that recommends items considering temporal dynamics
-2. **Solution**: Implemented matrix factorization with time decay weighting
-3. **Challenges**: Handling temporal sequences, model evaluation at scale
-4. **Results**: Successful recommendation generation for all users
-5. **Learning**: Understanding tradeoffs between model complexity and accuracy
-
-## 🔧 Configuration
-
-Edit `config/config.yaml` or modify defaults in `pipeline.py`:
-
-```python
-config = {
-    'data': {
-        'n_users': 1000,
-        'n_items': 500,
-        'n_interactions': 50000,
-        'temporal_decay': 0.95
-    },
-    'models': {
-        'tar': {'n_factors': 20, 'learning_rate': 0.01, 'n_epochs': 50},
-        'tsmf': {'n_factors': 20, 'learning_rate': 0.01, 'n_epochs': 50}
-    }
-}
-```
-
 ## 📚 Dependencies
 
 - `numpy` - Numerical computing
@@ -347,18 +301,4 @@ Potential improvements:
 
 ## 📝 License
 
-This project is created for educational and portfolio purposes.
-
-## 🎓 Author Notes
-
-This project demonstrates:
-- **Production-Ready Code**: Clean architecture, error handling, logging
-- **ML Expertise**: Model design, evaluation, hyperparameter tuning
-- **Software Engineering**: Modular design, documentation, testing
-- **Problem Solving**: Addressing temporal dynamics in recommendations
-
-Perfect for interviews and portfolio!
-
----
-
-For questions or improvements, please reach out!
+This project is created for educational purposes!
