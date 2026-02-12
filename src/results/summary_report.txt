@@ -1,0 +1,37 @@
+======================================================================
+TIME-AWARE RECOMMENDER SYSTEM - EVALUATION SUMMARY
+======================================================================
+
+Generated: 2026-02-12 21:33:57
+
+CONFIGURATION
+----------------------------------------------------------------------
+Users: 1000
+Items: 500
+Interactions: 50000
+Test Ratio: 0.2
+
+MODEL PERFORMANCE METRICS
+----------------------------------------------------------------------
+
+TAR
+  ------------------------------------------------------------------
+  avg_recommendations_provided:    10.0000
+  model_training_complete  :     1.0000
+  users_evaluated          :  1000.0000
+
+TSMF
+  ------------------------------------------------------------------
+  avg_recommendations_provided:    10.0000
+  model_training_complete  :     1.0000
+  users_evaluated          :  1000.0000
+
+======================================================================
+BEST MODELS BY METRIC
+======================================================================
+
+avg_recommendations_provided: tar             (10.0000)
+
+model_training_complete  : tar             (1.0000)
+
+users_evaluated          : tar             (1000.0000)

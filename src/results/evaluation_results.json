@@ -1,0 +1,12 @@
+{
+  "tar": {
+    "users_evaluated": 1000.0,
+    "avg_recommendations_provided": 10.0,
+    "model_training_complete": 1.0
+  },
+  "tsmf": {
+    "users_evaluated": 1000.0,
+    "avg_recommendations_provided": 10.0,
+    "model_training_complete": 1.0
+  }
+}

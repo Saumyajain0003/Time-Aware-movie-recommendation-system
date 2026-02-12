@@ -1,0 +1,13 @@
+[MASTER]
+extension-pkg-allow-list=numpy,scipy,sklearn
+
+[MESSAGES CONTROL]
+disable=
+    missing-docstring,
+    too-few-public-methods,
+    too-many-arguments,
+    too-many-locals,
+    invalid-name
+
+[FORMAT]
+max-line-length=120
